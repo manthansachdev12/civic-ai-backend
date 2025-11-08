@@ -5,9 +5,9 @@ import torch
 app = Flask(__name__)
 CORS(app)
 
-from ultralytics import YOLO
 
-model = YOLO("best.pt")
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', trust_repo=True)
+
 
 
 # Label mapping
