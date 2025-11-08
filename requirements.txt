@@ -1,0 +1,8 @@
+torch
+flask
+flask-cors
+Pillow
+opencv-python
+numpy
+pandas
+requests
