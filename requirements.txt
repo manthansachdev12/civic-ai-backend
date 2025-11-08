@@ -1,7 +1,7 @@
-ultralytics
 torch
+torchvision
 flask
 flask-cors
-opencv-python
+opencv-python-headless
 Pillow
 numpy
