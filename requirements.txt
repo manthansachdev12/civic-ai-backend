@@ -1,8 +1,7 @@
+ultralytics
 torch
 flask
 flask-cors
-Pillow
 opencv-python
+Pillow
 numpy
-pandas
-requests
